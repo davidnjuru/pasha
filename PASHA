@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PASHA Home Care Services | Compassionate Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background: #f6f8fb;
+            color: #212121;
+        }
+        header {
+            background: #204080;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        nav {
+            background: #e0e6f2;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 20px;
+            color: #204080;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(32,64,128,0.05);
+        }
+        h2 {
+            color: #204080;
+        }
+        .cta {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #204080;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #204080;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 15px; }
+            nav a { margin: 0 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Compassionate Home Care Services</h1>
+        <p>Supporting Independent Living Across the UK</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to Compassionate Home Care</h2>
+        <p>
+            At Compassionate Home Care, we provide tailored, professional care services to help you or your loved ones live safely, comfortably, and independently at home. Our experienced team is dedicated to delivering support with dignity and respect.
+        </p>
+        <ul>
+            <li>Registered with the Care Quality Commission (CQC)</li>
+            <li>Fully trained and DBS-checked carers</li>
+            <li>Flexible packages: hourly, daily, or live-in care</li>
+            <li>Specialists in elderly, disability, and dementia care</li>
+        </ul>
+        <a class="cta" href="#contact">Request a Free Consultation</a>
+        <hr>
+
+        <h2 id="about">About Us</h2>
+        <p>
+            Compassionate Home Care was founded in the UK to provide high-quality, person-centred care. Our mission is to support families and individuals with compassionate, reliable, and professional care solutions.
+        </p>
+
+        <h2 id="services">Our Services</h2>
+        <ul>
+            <li><strong>Personal Care:</strong> Assistance with bathing, dressing, and daily routines</li>
+            <li><strong>Companionship:</strong> Friendly conversation and social activities</li>
+            <li><strong>Dementia Care:</strong> Specialist support for people living with dementia</li>
+            <li><strong>Respite Care:</strong> Temporary support for family carers</li>
+            <li><strong>Medication Support:</strong> Help with medication management</li>
+        </ul>
+
+        <h2 id="contact">Contact Us</h2>
+        <p>For more information or to arrange an assessment, please contact us:</p>
+        <ul>
+            <li><strong>Phone:</strong> 01234 567890</li>
+            <li><strong>Email:</strong> info@compassionatecare.co.uk</li>
+            <li><strong>Address:</strong> 123 High Street, London, W1A 2BC, UK</li>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; 2024 Compassionate Home Care | Registered in England & Wales | CQC Registration No. 123456
+    </footer>
+</body>
+</html>
